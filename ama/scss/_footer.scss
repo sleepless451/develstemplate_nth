@@ -1,0 +1,72 @@
+footer{
+      @include flex-center();
+      height: 225px;
+      background-color: #f4f4f4;
+      color: $light-bg-font;
+      a{
+            color: $light-bg-font;
+            cursor: pointer;
+            transition: all .2s;
+      }
+      a:link{
+            text-decoration: none;
+      }
+      a:hover{
+            color: $hover-color;
+      }
+      h2{
+            margin-top: 20px !important;
+      }
+      p{
+            font-family: "Varela Round";
+      }
+      .btn-footer{
+            margin: 10px 0 0 10px;
+            padding: 0;
+            width: 101px;
+            height: 48px;
+            border: none;
+            border-radius: 5px !important;
+            background-color: $primary-color;
+            font-size: 16px;
+            line-height: 24px;
+            color: #f4f4f4;
+            font-weight: 400;
+            font-family: "Varela Round";
+            &:hover{
+                  background-color: $hover-color;
+            }
+      }
+      .form-email{
+            width: 311px;
+            height: 48px;
+            border-radius: 5px;
+            padding: 15px;
+            background-color: #f4f4f4;
+            border: 1px solid #a3a3a3;
+            transition: all .2s;
+            margin-top: 10px;
+            &:focus{
+                  outline: none;
+                  border: 1px solid $hover-color;
+            }
+      }
+}
+@media screen and (max-width: $brkp-lg){
+      footer{
+            h2{
+                  font-size: font-s(p) !important;
+            }
+            .col-footer{
+                  @include flex-center();
+                  flex-direction: column;
+            }
+            .input-group{
+                  @include flex-center();
+                  flex-direction: column;
+            }
+            .form-email{
+                  width: auto;
+            }
+      }
+}

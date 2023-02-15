@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "gulp-cli": "^2.3.0"
+  },
+  "name": "ama_pink",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "browser-sync": "^2.27.11",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.58.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "sleepless",
+  "license": "ISC",
+  "description": ""
+}

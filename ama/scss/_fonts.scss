@@ -1,0 +1,21 @@
+.block-font{
+      font-family: 'Montserrat', sans-serif;
+      h1{
+            font-size: font-s(title);
+            font-weight: 600;
+            margin: 0;
+            padding: 0;
+      }
+      h2{
+            font-size: font-s(mini-title);
+            font-weight: 600;
+            margin: 0;
+            padding: 0;
+      }
+      p{
+            font-size: font-s(p);
+            font-family: 'Varela Round', sans-serif;
+            margin: 0;
+            padding: 0;
+      }
+}

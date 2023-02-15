@@ -1,0 +1,44 @@
+.details-block{
+      background-color: #262626;
+      color: $dark-bg-font;
+      h1{
+            color: #ffffff;
+      }
+      .article-img{
+            height: 733px;
+            width: 100%;
+            object-fit: cover;
+            object-position: 0 -15%;
+      }
+}
+.details-content{
+      margin-top: 182px;
+      h2{
+            margin-top: 20px;
+            line-height: 27px;
+      }
+      .mini-slider{
+            margin-top: 50px;
+            display: flex;
+            align-items: center;
+            vertical-align: middle;
+            .col-sm-5 img{
+                  display: block;
+                  margin: auto;
+            }
+            .col-sm-4 img{
+                  display: block;
+                  margin: auto;
+            }
+      }
+}
+.details-block .carousel-indicators{
+      left: -520px;
+      top: auto;
+      bottom: -70px;
+}
+.features-desc-block .carousel-indicators{
+      left: -340px;
+      top: auto;
+      bottom: -3px;
+}

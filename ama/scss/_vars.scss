@@ -1,0 +1,29 @@
+$primary-color: rgb(222, 93, 93);
+$secondary-color: rgb(240, 100, 100);
+$hover-color: rgb(58, 58, 58);
+$light-bg-font: #666666;
+$dark-bg-font: #aeaeae;
+
+$font-sizes:(
+      "title": 48px,
+      "macro-title": 24px,
+      "mini-title": 18px,
+      "p": 16px
+);
+
+$brkp-xl: 1199px;
+$brkp-lg: 991px;
+$brkp-md: 767px;
+$brkp-sm: 575px;
+
+@function font-s($size){
+      @return map-get($font-sizes, $size);
+}
+// font-size: font-s(title);
+
+@mixin flex-center(){
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+// @include flex-center($direction);

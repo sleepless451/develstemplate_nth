@@ -1,0 +1,62 @@
+.download-block{
+      background-color: $primary-color;
+      color: #ffffff;
+      height: 723px;
+      @include flex-center();
+      h2{
+            font-size: font-s(macro-title);
+            margin: 30px 0 30px;    
+      }
+      .download-container{
+            padding-bottom: 30px;
+      }
+      .download-icon{
+            @include flex-center();
+            img{
+                  box-shadow: rgba(0, 0, 0, 0.19) 50px 50px 100px 0px;
+                  border-radius: 57px;
+            }
+      }
+      .download-banner{
+            padding-bottom: 20px;
+      }
+      .btn{
+            font-family: 'Varela Round', sans-serif;
+            font-weight: 600;
+      }
+}
+@media screen and (max-width: $brkp-xl){
+      .download-block .btn{
+            margin: 20px 15px 0 15px;
+      }
+}
+@media screen and (max-width: $brkp-lg){
+      .download-block{
+            height: auto;
+            h1{
+                  margin-top: 30px;
+            }
+            .download-icon{
+                  margin-top: 50px;
+            }
+      }
+      .download-banner{
+            @include flex-center();
+            flex-direction: column;
+      }
+      .btn-row{
+            @include flex-center();
+            flex-direction: column;
+      }
+}
+@media screen and (max-width: $brkp-md){
+      .download-block{
+            height: auto;
+            .download-icon{
+                  margin-top: 50px;
+            }
+            .download-banner{
+                  padding-bottom: 30px;
+            }
+      }
+}

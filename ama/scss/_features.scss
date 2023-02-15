@@ -1,0 +1,21 @@
+.features-block{
+      background-color: #ffffff;
+      color: $light-bg-font;
+      text-align: center;
+      padding-bottom: 116px;
+      h1{
+            color: $hover-color;
+            padding: 100px 0 60px;
+      }
+      h2{
+            margin: 40px 0 0px;
+      }
+      p{
+            margin: auto;
+            width: 250px;
+      }
+      img{
+            width: 229px;
+            height: 229px;
+      }
+}

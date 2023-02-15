@@ -1,0 +1,34 @@
+.compati-block{
+      background-color: #e7e7e7;
+      height: 444px;
+}
+.compati-container{
+      padding-top: 86px;
+      color: $light-bg-font;
+      h1{
+            font-size: font-s(macro-title);
+      }
+      h2{
+            font-size: font-s(mini-title);
+      }
+      hr{
+            background-color: #cbcbcb;
+            height: 2px;
+            border: none;
+      }
+}
+.icon-row{
+      margin-top: 22px;
+      .ios-icon{
+            margin-top: 28px;
+      }
+      .android-icon{
+            margin-top: 35px;
+      }
+}
+@media screen and (max-width: $brkp-sm){
+      .compati-block{
+            height: auto;
+            padding-bottom: 50px;
+      }
+}

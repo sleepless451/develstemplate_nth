@@ -1,0 +1,20 @@
+@import './resets';
+@import './vars';
+
+img{
+      max-width: 100%;
+      height: auto;
+}
+
+@import './header';
+
+@import './fonts';
+
+@import './features';
+@import './details';
+@import './features-desc';
+@import './photos';
+@import './download';
+@import './compatibility';
+
+@import './footer';
